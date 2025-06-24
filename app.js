@@ -21,11 +21,9 @@ function verificarChute() {
   
   if(chute > numeroSecreto){
     alterarTexto('p', `O número secreto é menor que ${chute}. Tente novamente!'`)
-    // mensageAlert(`O número secreto é menor que ${chute}. Tente novamente!`)
   }
   else if(chute < numeroSecreto){
     alterarTexto('p', `O número secreto é maior que ${chute}. Tente novamente!`)
-    // mensageAlert(`O número secreto é maior que ${chute}. Tente novamente!`)
   }
   else {
     alterarTexto('p', `Parabéns, você acertou! O número secreto é ${numeroSecreto}`);
