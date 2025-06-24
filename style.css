@@ -43,9 +43,18 @@ body::before {
 
 .container__conteudo {
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* padding-bottom: 10px; */
+}
+
+.container__imagem-pessoa {
+    max-width: 40%;
+    height: auto;
+    object-fit: contain;
 }
 
 .container__informacoes {
@@ -92,7 +101,7 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+    font-size: 4rem;
     padding-bottom: 3rem;
 }
 
