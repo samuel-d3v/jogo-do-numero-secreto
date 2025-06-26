@@ -6,8 +6,7 @@ Um jogo interativo onde o jogador tenta adivinhar um número secreto gerado alea
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/samuel-d3v/jogo-do-numero-secreto)
 ![GitHub issues](https://img.shields.io/github/issues/samuel-d3v/jogo-do-numero-secreto)
-![GitHub license](https://img.shields.io/github/license/samuel-d3v/jogo-do-numero-secreto)
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ---
 
 ## 📑 Tabela de Conteúdos
@@ -101,4 +100,4 @@ git push origin minha-feature
 
 ## 📝 Licença
 Este projeto está licenciado sob a Licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
